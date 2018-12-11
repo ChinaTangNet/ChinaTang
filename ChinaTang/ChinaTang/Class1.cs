@@ -8,5 +8,7 @@ namespace ChinaTang
 {
     public class Class1
     {
+
     }
+
 }
