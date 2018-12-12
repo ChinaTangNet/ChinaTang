@@ -50,6 +50,7 @@
     <Compile Include="Utils\StringUtils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Devices\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
