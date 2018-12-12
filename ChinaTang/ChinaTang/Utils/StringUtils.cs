@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ChinaTang.Utils
 {
-    class StringUtils
+   public  class StringUtils
     {
+         
     }
 }
