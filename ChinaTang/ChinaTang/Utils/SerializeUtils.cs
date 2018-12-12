@@ -11,5 +11,6 @@ namespace ChinaTang.Utils
     /// </summary>
     public class SerializeUtils
     { 
+
     }
 }
