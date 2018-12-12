@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Devices\Camera.cs" />
     <Compile Include="Enums\CharCaseEnum.cs" />
     <Compile Include="Exceptions\NonstandardInputException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,7 +51,6 @@
     <Compile Include="Utils\StringUtils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Devices\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
