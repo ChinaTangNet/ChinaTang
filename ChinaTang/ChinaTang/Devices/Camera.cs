@@ -9,7 +9,7 @@ namespace ChinaTang.Devices
     /// <summary>
     /// 摄像头
     /// </summary>
-    public class CameraDevice
+    public class Camera
     {
          
     }
