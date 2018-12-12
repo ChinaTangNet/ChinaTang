@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinaTang", "ChinaTang\ChinaTang.csproj", "{7FBA5457-42E2-4BB9-B787-705204BEF3D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinaTangTests", "ChinaTangTests\ChinaTangTests.csproj", "{3A877264-9C5B-42FD-87D7-655DE8E28915}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6AD17826-1036-4EB5-ABF5-0A14C403A71B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{7FBA5457-42E2-4BB9-B787-705204BEF3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FBA5457-42E2-4BB9-B787-705204BEF3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FBA5457-42E2-4BB9-B787-705204BEF3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A877264-9C5B-42FD-87D7-655DE8E28915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A877264-9C5B-42FD-87D7-655DE8E28915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A877264-9C5B-42FD-87D7-655DE8E28915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A877264-9C5B-42FD-87D7-655DE8E28915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A877264-9C5B-42FD-87D7-655DE8E28915} = {6AD17826-1036-4EB5-ABF5-0A14C403A71B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CC75298-5D57-43ED-97A0-6B5D2C84CDEC}
