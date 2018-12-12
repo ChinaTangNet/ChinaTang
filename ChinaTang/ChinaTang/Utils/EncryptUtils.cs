@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ChinaTang.Utils
 {
-    public class EncryptUtils
+    public static class EncryptUtils
     {
         /// <summary>
         /// 获取二进制数组的MD5值

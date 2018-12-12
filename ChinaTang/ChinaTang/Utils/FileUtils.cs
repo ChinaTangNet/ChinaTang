@@ -12,7 +12,7 @@ namespace ChinaTang.Utils
     /// <summary>
     /// 文件操作类
     /// </summary>
-    public class FileUtils
+    public static class FileUtils
     {
         /// <summary>
         /// 将文件转换为为进制数组
