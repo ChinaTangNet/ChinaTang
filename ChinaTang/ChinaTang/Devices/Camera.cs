@@ -11,6 +11,6 @@ namespace ChinaTang.Devices
     /// </summary>
     public class Camera
     {
-
+         
     }
 }
