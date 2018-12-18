@@ -36,7 +36,7 @@ namespace ChinaTang.Utils
             }
         }
         /// <summary>
-        /// 从指定文件反序列话得到对象
+        /// 从指定文件反序列化得到对象
         /// </summary>
         /// <typeparam name="T">要反序列化的类型</typeparam>
         /// <param name="xmlfile">要反序列化的XML文件</param>
