@@ -22,7 +22,7 @@ namespace ChinaTang.Utils
         public static byte[] FileToBytes(string filepath)
         {
             if (string.IsNullOrEmpty(filepath))
-                throw new NonstandardInputException("文件路径不能为空或NULL");
+                throw new NonStandardInputException("文件路径不能为空或NULL");
             if (String.IsNullOrEmpty(filepath) || !File.Exists(filepath))
                 throw new FileNotFoundException(string.Format("文件:{0}没有被找到",filepath));
             long bufferlength = new FileInfo(filepath).Length;
@@ -44,7 +44,7 @@ namespace ChinaTang.Utils
         public static void BytesToFile(byte[] content, string filepath, bool isoverwrite=true, bool iscreateparentpath=true)
         {
             if(content==null)
-                throw new NonstandardInputException("如果你想要将二进制数组保存为本地文件，那么请确保该二进制数组不为NULL");
+                throw new NonStandardInputException("如果你想要将二进制数组保存为本地文件，那么请确保该二进制数组不为NULL");
             string filedir = Path.GetDirectoryName(filepath);
             if(iscreateparentpath && !Directory.Exists(filedir))
                 Directory.CreateDirectory(filedir);

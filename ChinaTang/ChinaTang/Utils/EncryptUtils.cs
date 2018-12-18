@@ -20,7 +20,7 @@ namespace ChinaTang.Utils
         public static string GetBytesMd5Value(byte[] content,CharCaseEnum charcase= CharCaseEnum.LOWER)
         {
             if (content == null)
-                throw new NonstandardInputException("如果你想要获取二进制数组的MD5值，那么请确保该二进制数组不为NULL");
+                throw new NonStandardInputException("如果你想要获取二进制数组的MD5值，那么请确保该二进制数组不为NULL");
 
             MD5 md5 = new MD5CryptoServiceProvider();
             byte[] md5data = md5.ComputeHash(content);

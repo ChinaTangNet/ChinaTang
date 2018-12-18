@@ -9,13 +9,13 @@ namespace ChinaTang.Exceptions
     /// <summary>
     /// 不标准的输入
     /// </summary>
-    public class NonstandardInputException:ApplicationException
+    public class NonStandardInputException:ApplicationException
     {
         /// <summary>
         /// 不标准的输入
         /// </summary>
         /// <param name="message">异常信息</param>
-        public NonstandardInputException(string message)
+        public NonStandardInputException(string message)
             : base(message){
         }
     }
