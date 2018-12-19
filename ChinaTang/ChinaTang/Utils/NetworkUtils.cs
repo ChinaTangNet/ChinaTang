@@ -38,7 +38,6 @@ namespace ChinaTang.Utils
                 throw new NonStandardInputException("如果你想测试地址是否能够访问，请确保输入不为NULL或空！");
             if (timeout <= 0)
                 throw new NonStandardInputException("服务超时时间必须为正整数！");
-
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(address);
             req.Timeout = timeout;
             using (var resp = (HttpWebResponse)req.GetResponse())
