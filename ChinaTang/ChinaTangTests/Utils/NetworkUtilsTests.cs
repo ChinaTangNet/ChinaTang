@@ -11,10 +11,12 @@ namespace ChinaTang.Utils.Tests
     [TestFixture()]
     public class NetworkUtilsTests
     {
+         
+
         [Test()]
-        public void TempTest()
+        public void IsAddressCanAccessTest()
         {
-            NetworkUtils.Temp();
+            var result=NetworkUtils.IsAddressCanAccess("https://www.nxks.nx.edu.cn/ws", 10000);
         }
     }
 }
