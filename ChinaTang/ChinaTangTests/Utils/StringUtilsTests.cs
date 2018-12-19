@@ -1,10 +1,6 @@
-﻿using NUnit.Framework;
-using ChinaTang.Utils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using ChinaTang.Utils;
+using NUnit.Framework;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ChinaTang.Utils.Tests
 {
@@ -13,9 +9,23 @@ namespace ChinaTang.Utils.Tests
     {
         [Test()]
         public void GetMd5ValueTest()
-        { 
+        {
             string str = "www.chinatang.net";
-            string md5 = str.GetMd5Value(Encoding.UTF8,Enums.CharCaseEnum.UPPER);
+            string md5 = str.GetMd5Value(Encoding.UTF8, Enums.CharCaseEnum.UPPER);
+        }
+
+        [Test()]
+        public void IsIpv4Test()
+        {
+            string ipv4 = "56.1.1.1";
+            var result = ipv4.IsIpv4();
+        }
+
+        [Test()]
+        public void IsIpv6Test()
+        {
+            string ipv6 = "AD80::ABAA:0000:00C2:0002";
+            var result = ipv6.IsIpv6();
         }
     }
 }
