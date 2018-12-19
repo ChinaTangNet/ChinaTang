@@ -58,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\EncryptUtilsTests.cs" />
     <Compile Include="Utils\FileUtilsTests.cs" />
+    <Compile Include="Utils\NetworkUtilsTests.cs" />
     <Compile Include="Utils\SerializeUtilsTests.cs" />
     <Compile Include="Utils\StringUtilsTests.cs" />
   </ItemGroup>
